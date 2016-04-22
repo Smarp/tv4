@@ -7,10 +7,11 @@ This code is released into the "public domain" by its author(s).  Anybody may us
 If you find a bug or make an improvement, it would be courteous to let the author know, but it is not compulsory.
 */
 (function (global, factory) {
-  if (typeof define === 'function' && define.amd) {
-    // AMD. Register as an anonymous module.
-    define([], factory);
-  } else if (typeof module !== 'undefined' && module.exports){
+  // if (typeof define === 'function' && define.amd) {
+  //   // AMD. Register as an anonymous module.
+  //   define([], factory);
+  // } else 
+  if (typeof module !== 'undefined' && module.exports){
     // CommonJS. Define export.
     module.exports = factory();
   } else {
